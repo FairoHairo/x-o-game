@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  /* padding: 5px; */
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  /* margin: 10px; */
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
